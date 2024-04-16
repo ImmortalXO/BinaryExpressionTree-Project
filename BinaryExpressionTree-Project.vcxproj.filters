@@ -18,9 +18,6 @@
     <ClCompile Include="BinaryExpressionTree-Project.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="binaryExpressionTree.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="binaryExpressionTree.h">
