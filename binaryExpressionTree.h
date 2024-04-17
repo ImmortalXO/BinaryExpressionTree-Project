@@ -5,24 +5,9 @@
 #include <cstring>
 #include <sstream>
 
+#include "binaryTree.h"
+
 using namespace std;
-
-template <class elemType>
-struct nodeType {
-	elemType info;
-	nodeType<elemType>* lLink;
-	nodeType<elemType>* rLink;
-};
-
-template <class elemType>
-class binaryTreeType {
-protected:
-	nodeType<elemType>* root;
-public:
-	virtual void search(const elemType& item) const = 0;
-	virtual void insert(const elemType& item) = 0;
-	virtual void deleteNode(const elemType& item) = 0;
-};
 
 class binaryExpressionTree : public binaryTreeType<string> {
 private:

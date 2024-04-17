@@ -23,5 +23,8 @@
     <ClInclude Include="binaryExpressionTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="binaryTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
